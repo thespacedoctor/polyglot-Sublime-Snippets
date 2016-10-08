@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+from polyglot import htmlCleaner
+cleaner = htmlCleaner(
+    log=log,
+    settings=settings,
+    url=${1:"http://www.thespacedoctor.co.uk/blog/2016/09/26/mysqlSucker-index.html"},
+    outputDirectory=${2:"/tmp"},
+    title=${3:"my_clean_doc"} # SET TO FALSE TO USE WEBPAGE TITLE,
+    style=True, # add simpdf's styling to the HTML document
+    metadata=True, # include metadata in generated HTML (e.g. title),
+    h1=True # include title as H1 at the top of the doc
+)
+cleaner.clean()
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xpg-parse-and-clean-webpage-url-to-local-html-document</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>parse-and-clean-webpage-url-to-local-html-document</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>

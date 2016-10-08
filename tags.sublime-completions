@@ -1,0 +1,10 @@
+{
+"scope": "source.python",
+"completions":
+[
+   
+	{ "trigger": "pg> parse and clean webpage url to local html document\tcomp", "contents": "xpg-parse-and-clean-webpage-url-to-local-html-document" },
+	{ "trigger": "pg> print webpage to pdf\tcomp", "contents": "xpg-print-webpage-to-pdf" },
+	{ "trigger": "pg> setup readability parser client\tcomp", "contents": "xpg-setup-readability-parser-client" } 
+]
+}
