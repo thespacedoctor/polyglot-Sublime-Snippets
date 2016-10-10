@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+from polyglot import ebook
+mobi = ebook(
+    log=log,
+    settings=settings,
+    urlOrPath=${1:url},
+    title=False,
+    bookFormat="mobi",
+    outputDirectory=${2:"/path/to/output/folder"},
+    header=${3:'<a href="http://www.thespacedoctor.co.uk">thespacedoctor</a>'},
+    footer=${3:'<a href="http://www.thespacedoctor.co.uk">thespacedoctor</a>'}
+)
+pathToMobi = mobi.get()
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xpg-create-mobi-from-URL</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>create-mobi-from-URL</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>
