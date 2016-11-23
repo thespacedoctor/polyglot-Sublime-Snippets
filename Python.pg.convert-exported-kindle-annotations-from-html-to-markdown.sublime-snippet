@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+from polyglot.markdown import kindle_notebook
+nb = kindle_notebook(
+    log=log,
+    kindleExportPath=${1:"/path/to/kindle_export.html"},
+    outputPath=${2:"/path/to/coverted_annotations.md"}
+)
+nb.convert()
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xpg-convert-exported-kindle-annotations-from-html-to-markdown</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>convert-exported-kindle-annotations-from-html-to-markdown</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>
