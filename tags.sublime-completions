@@ -3,7 +3,6 @@
 "completions":
 [
    
-	{ "trigger": "pg> setup readability parser client\tcomp", "contents": "xpg-setup-readability-parser-client" },
 	{ "trigger": "pg> send webpage article to kindle\tcomp", "contents": "xpg-send-webpage-article-to-kindle" },
 	{ "trigger": "pg> create mobi from URL\tcomp", "contents": "xpg-create-mobi-from-URL" },
 	{ "trigger": "pg> create epub from URL\tcomp", "contents": "xpg-create-epub-from-URL" },
