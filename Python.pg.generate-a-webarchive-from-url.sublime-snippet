@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+from polyglot import webarchive
+wa = webarchive(
+    log=log,
+    settings=settings
+)
+wa.create(url="https://en.wikipedia.org/wiki/Volkswagen",
+          pathToWebarchive=pathToOutputDir + "Volkswagen.webarchive")
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xpg-generate-a-webarchive-from-url</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>generate-a-webarchive-from-url</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>
