@@ -7,6 +7,7 @@
 	{ "trigger": "pg> create mobi from URL\tcomp", "contents": "xpg-create-mobi-from-URL" },
 	{ "trigger": "pg> create epub from URL\tcomp", "contents": "xpg-create-epub-from-URL" },
 	{ "trigger": "pg> parse and clean webpage url to local html document\tcomp", "contents": "xpg-parse-and-clean-webpage-url-to-local-html-document" },
+	{ "trigger": "pg> generate a webarchive from url\tcomp", "contents": "xpg-generate-a-webarchive-from-url" },
 	{ "trigger": "pg> convert exported kindle annotations from html to markdown\tcomp", "contents": "xpg-convert-exported-kindle-annotations-from-html-to-markdown" },
 	{ "trigger": "pg> print webpage to pdf\tcomp", "contents": "xpg-print-webpage-to-pdf" } 
 ]
