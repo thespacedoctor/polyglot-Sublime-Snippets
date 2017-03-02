@@ -3,12 +3,32 @@
 "completions":
 [
    
+	{ "trigger": "pg> markdown translator object\tcomp", "contents": "xpg-markdown-translator-object" },
+	{ "trigger": "pg> stand alone url\tcomp", "contents": "xpg-stand-alone-url" },
+	{ "trigger": "pg> strike through\tcomp", "contents": "xpg-strike-through" },
+	{ "trigger": "pg> inline link\tcomp", "contents": "xpg-inline-link" },
+	{ "trigger": "pg> link to header\tcomp", "contents": "xpg-link-to-header" },
+	{ "trigger": "pg> ordered list\tcomp", "contents": "xpg-ordered-list" },
+	{ "trigger": "pg> inline math\tcomp", "contents": "xpg-inline-math" },
+	{ "trigger": "pg> glossary item\tcomp", "contents": "xpg-glossary-item" },
+	{ "trigger": "pg> bold\tcomp", "contents": "xpg-bold" },
+	{ "trigger": "pg> inline code\tcomp", "contents": "xpg-inline-code" },
+	{ "trigger": "pg> codeblock\tcomp", "contents": "xpg-codeblock" },
+	{ "trigger": "pg> create epub from URL\tcomp", "contents": "xpg-create-epub-from-URL" },
 	{ "trigger": "pg> send webpage article to kindle\tcomp", "contents": "xpg-send-webpage-article-to-kindle" },
 	{ "trigger": "pg> create mobi from URL\tcomp", "contents": "xpg-create-mobi-from-URL" },
-	{ "trigger": "pg> create epub from URL\tcomp", "contents": "xpg-create-epub-from-URL" },
+	{ "trigger": "pg> definition\tcomp", "contents": "xpg-definition" },
+	{ "trigger": "pg> italics\tcomp", "contents": "xpg-italics" },
 	{ "trigger": "pg> parse and clean webpage url to local html document\tcomp", "contents": "xpg-parse-and-clean-webpage-url-to-local-html-document" },
 	{ "trigger": "pg> generate a webarchive from url\tcomp", "contents": "xpg-generate-a-webarchive-from-url" },
+	{ "trigger": "pg> block math\tcomp", "contents": "xpg-block-math" },
+	{ "trigger": "pg> ul\tcomp", "contents": "xpg-ul" },
+	{ "trigger": "pg> print webpage to pdf\tcomp", "contents": "xpg-print-webpage-to-pdf" },
+	{ "trigger": "pg> highlight\tcomp", "contents": "xpg-highlight" },
+	{ "trigger": "pg> footnote\tcomp", "contents": "xpg-footnote" },
+	{ "trigger": "pg> citation\tcomp", "contents": "xpg-citation" },
 	{ "trigger": "pg> convert exported kindle annotations from html to markdown\tcomp", "contents": "xpg-convert-exported-kindle-annotations-from-html-to-markdown" },
-	{ "trigger": "pg> print webpage to pdf\tcomp", "contents": "xpg-print-webpage-to-pdf" } 
+	{ "trigger": "pg> header\tcomp", "contents": "xpg-header" },
+	{ "trigger": "pg> image link\tcomp", "contents": "xpg-image-link" } 
 ]
 }
